@@ -45,7 +45,10 @@ Here are all Messages listed. That means all Messages that are sent from the App
 | -------------------- |:--------------------------|--------------:|
 | Handshake Request    | First Message from App    | 2             |
 | Handshake Response   | First Message from Board  | x             |
-
+| New Game             | New Game started          | x             |
+| Game Ended           | Game ended                | x             |
+| New Move on App      | New Move on App           | x             |
+| New Move on Board    | New Move on Board         | x             |
 
 ## Message: Handshake Request (H0)
 
@@ -91,7 +94,7 @@ GameTypes:
 - WhitePawn OnlineGame (2)
 - Lichess OnlineGame (3)
 
-## Message: Game Ended (GX)
+## Message: Game Ended (GE)
 
 If the Game Ended, this message is sent to the Board.
 
